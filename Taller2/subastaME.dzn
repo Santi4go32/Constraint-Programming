@@ -1,0 +1,58 @@
+% N=3;
+% M=3;
+% demanda = [20, 25, 30];
+% precioMax = 5;
+% ofertas = [| 20, 25, 30 | 
+%              20, 15, 25 |
+%              30, 43, 100|];  
+% PV = [2, 3,5];
+
+%Segunda prueba
+% N=5;
+% M=10;
+% demanda = [50, 70, 60, 80, 40, 30, 50, 70, 60, 80];
+% precioMax = 5;
+% ofertas = [| 10, 5, 15, 8, 7, 9, 12, 11, 10, 6
+%            | 15, 10, 20, 10, 8, 12, 16, 14, 12, 8
+%            | 20, 15, 25, 12, 10, 15, 24, 18, 15, 10
+%            | 12,  7, 18, 9, 6, 10, 14, 13, 12, 7
+%            | 18, 12, 24, 15, 12, 18, 30, 20, 18, 12 |];  
+% PV = [3, 4, 5, 2, 4];
+
+
+%Tercera prueba
+% N=4;
+% M=4;
+% demanda = [30, 40, 20, 30];
+% precioMax = 4;
+% ofertas = [|  10, 10, 20, 10 
+%             | 20, 20, 20, 10 
+%             | 20, 20, 10, 20 
+%             | 10, 20, 10, 20 |];  
+% PV = [3, 4, 5, 2];
+
+
+%Cuarta prueba
+N=3; % número de generadores
+M=12; % número de unidades de tiempo
+demanda = [60, 70, 80, 90, 100, 110, 120, 120, 110, 100, 80, 70]; % demanda en cada hora
+precioMax = 4; % precio máximo de compra por KW
+
+ofertas = [| 30, 40, 70, 20, 30, 40, 50, 50, 50, 40, 30, 30
+           | 50, 80, 20, 20, 20, 30, 40, 40, 40, 30, 20, 20
+           | 10, 20, 20, 60, 90, 50, 30, 30, 100, 90, 50, 30 |]; % capacidad de producción de cada generador
+PV = [2, 3, 4]; % precio de venta de cada generador
+
+
+
+
+
+
+
+
+
+
+
+
+
+
